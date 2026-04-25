@@ -17,6 +17,10 @@
 [![Project](https://img.shields.io/badge/Project-website%20-green)](https://woven-visionai.github.io/wts-dataset-homepage/)
 </div>
 
+## Update List
+
+- [ ] Release test datasets
+- [ ] Release submission instructions and evaluation scripts
 
 ## WTS Dataset <a name="introduction"></a>
 
@@ -27,7 +31,7 @@ Comprising over 1.2k video events across over 130 distinct traffic scenarios, WT
     <img width="896" alt="image" src="https://github.com/user-attachments/assets/63fa5f89-662c-455c-ac6a-9f06223d009c" />
 </p>
 
-This repo contains a subset of the main WTS dataset with relevant descriptions and scripts for [`AI City Challenge Track 5`](TBD) (Generative Video Forecasting). More details about the main dataset can be found in the [main repo](https://github.com/woven-visionai/wts-dataset).
+This repo contains a subset of the main WTS dataset with relevant descriptions and scripts for [`AI City Challenge Track 5`](https://github.com/woven-visionai/wts-dataset-tv2v) (Generative Video Forecasting). More details about the main dataset can be found in the [main repo](https://github.com/woven-visionai/wts-dataset).
 
 ## Dataset Download <a name="download"></a>
 
@@ -156,9 +160,7 @@ The split of train/val/test part is provided in below:
     - [Caption](https://drive.google.com/file/d/1rzExQcjkuV3_C4WtDBRWHBwBiRnBzxtO/view?usp=drive_link)
 
 ### Test Split
-  - For both main & external datasets:
-    - [Video](TBD)
-    - [Caption](TBD)
+ - To be released.
 
 ## Evaluation
 To be released.
