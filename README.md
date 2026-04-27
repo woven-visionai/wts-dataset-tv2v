@@ -20,7 +20,6 @@
 ## Update List
 
 - [ ] Release test datasets
-- [ ] Release submission instructions and evaluation scripts
 
 ## WTS Dataset <a name="introduction"></a>
 
@@ -155,14 +154,11 @@ The split of train/val/test part is provided in below:
     - [Caption](https://drive.google.com/drive/folders/1pjtUdOJR01OMY12C9FmOr3UNiSeNhAvk?usp=drive_link)
       
   - External dataset (BDD_PC_5K)
-    - [Video](https://drive.google.com/file/d/1EJgLslKvyKMUyPC-aWR8YpzNZRBUu-gg/view?usp=drive_link)
-    - [Caption](https://drive.google.com/file/d/1rzExQcjkuV3_C4WtDBRWHBwBiRnBzxtO/view?usp=drive_link)
+    - [Video](https://drive.google.com/drive/folders/1h5P66CAyhNsWrb3nmTf-7SrWUOmuHADd?usp=drive_link)
+    - [Caption](https://drive.google.com/drive/folders/1UxL00JLC-_HBaW8gTnLJT89_ZQHx0avs?usp=drive_link)
 
 ### Test Split
  - To be released.
-
-## Evaluation
-To be released.
 
 ## License and Citation <a name="licenseandcitation"></a>
 Please refer to our license from WTS dataset [homepage](https://woven-visionai.github.io/wts-dataset-homepage/)
