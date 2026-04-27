@@ -35,7 +35,7 @@ This repo contains a subset of the main WTS dataset with relevant descriptions a
 
 ## Dataset Download <a name="download"></a>
 
-1. Please **submit request** through [Google Form](TBD) first.
+1. Please **submit request** through [Google Form](https://forms.gle/szQPk1TMR8JXzm327) first.
 2. You will get a DropBox link and a Google Drive link. They have identical content, so you can choose **either one**.
 3. For the Google Drive, in case you do not have access, **request on Google Drive** and it will be approved manually as long as you have completed Step 1.
 
