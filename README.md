@@ -152,6 +152,12 @@ The split of train/val/test part is provided in below:
   - Main dataset
     - [Video](https://drive.google.com/drive/folders/1cl7oHj_v10yOzgS4kJS6lcfYkQBlq1r7?usp=drive_link)
     - [Caption](https://drive.google.com/drive/folders/1pjtUdOJR01OMY12C9FmOr3UNiSeNhAvk?usp=drive_link)
+   
+  **If you find it difficult to download video and caption folders, we offer compressed files for them as well:**
+
+  - Compressed main dataset
+     - [Video](https://drive.google.com/file/d/1Me7BFTdxyIMRxSizjYf6ejz6t4IPulba/view?usp=drive_link)
+     - [Caption](https://drive.google.com/file/d/1bsOaUxAAKhotiqOxi9nBSZXEPoInhOCA/view?usp=drive_link)
       
   - External dataset (BDD_PC_5K)
     - [Video](https://drive.google.com/drive/folders/1h5P66CAyhNsWrb3nmTf-7SrWUOmuHADd?usp=drive_link)
