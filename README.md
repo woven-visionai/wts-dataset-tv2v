@@ -30,7 +30,7 @@ Comprising over 1.2k video events across over 130 distinct traffic scenarios, WT
     <img width="896" alt="image" src="https://github.com/user-attachments/assets/63fa5f89-662c-455c-ac6a-9f06223d009c" />
 </p>
 
-This repo contains a subset of the main WTS dataset with relevant descriptions and scripts for [`AI City Challenge Track 5`](https://github.com/woven-visionai/wts-dataset-tv2v) (Generative Video Forecasting). More details about the main dataset can be found in the [main repo](https://github.com/woven-visionai/wts-dataset).
+This repo contains a subset of the main WTS dataset with relevant descriptions and scripts for [`AI City Challenge Track 5`](https://www.aicitychallenge.org/2026-track5/) (Generative Video Forecasting). More details about the main dataset can be found in the [main repo](https://github.com/woven-visionai/wts-dataset).
 
 ## Dataset Download <a name="download"></a>
 
