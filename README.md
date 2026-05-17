@@ -19,7 +19,8 @@
 
 ## Update List
 
-- [ ] Release test datasets
+- [x] Release test datasets.
+- [x] Update submission instructions.
 
 ## WTS Dataset <a name="introduction"></a>
 
@@ -164,7 +165,48 @@ The split of train/val/test part is provided in below:
     - [Caption](https://drive.google.com/drive/folders/1UxL00JLC-_HBaW8gTnLJT89_ZQHx0avs?usp=drive_link)
 
 ### Test Split
- - To be released.
+   - [All data](https://drive.google.com/drive/folders/1PYvFfit9p0r1QFWI6leGLtspOHc34Vvt?usp=drive_link)
+
+## Submission Instruction
+For each test sample, we provide an `input` folder with condition history frames named as `%d.png`, along with a `caption.json` in the below format:
+
+```
+{
+  "id": 728,
+  "event_phase": [
+    {
+      "labels": [
+        "3"
+      ],
+      "caption_pedestrian": "The pedestrian is a male in his 30s with a height of 170 cm. He is wearing a black T-shirt and black slacks, along with glasses. The weather is clear, and the brightness is bright. He is standing diagonally to the right in front of the vehicle, with his body perpendicular to it. The pedestrian is close to the vehicle and has crossed his line of sight, indicating he is heading towards his crossing destination. He closely watches the vehicle and notices its presence. The pedestrian's general action is crossing, and he is moving at a slightly higher speed. The environment conditions include a dry, level asphalt road. The road is a residential road with two-way traffic, and there are street lights present. There is no sidewalk on both sides, nor is there a roadside strip on both sides. The traffic volume is usual.",
+      "caption_vehicle": "The vehicle is positioned diagonally to the left in front of the pedestrian, appearing near in distance. The pedestrian is visible within the vehicle's field of view. The vehicle is going straight ahead with a speed of 10 km/h. Meanwhile, the male pedestrian in his 30s stands at a height of 170 cm, wearing glasses and a black T-shirt. He is also dressed in black slacks. The weather is clear, with bright brightness and dry road surface conditions. The inclined level of the asphalt road, classified as a residential road with two-way traffic and no sidewalks or roadside strips on both sides, is where the event takes place. Street lights illuminate the surroundings of the road. The traffic volume is typical for this area."
+    }
+  ],
+  "frame length": 86
+}
+```
+
+You are tasked to generate `N` frames indicated by the number of `frame length` key in the json, using the input history frames as well as the captions for pedestrian and vehicle describing future scenes. In your answer for each test sample, you should also put the generated frames under a subfolder with the same name of the test sample for input, e.g.:
+
+```
+prediction/
+├── 20230707_14_CN16_T1_Camera2_3/
+│   ├── 0.png
+│   ├── 1.png
+│   ├── 2.png
+│   ├── ...
+│   └── %d.png
+├── 20230707_16_CN10_T1_Camera1_3/
+│   ├── 0.png
+│   ├── 1.png
+│   ├── 2.png
+│   ├── ...
+│   └── %d.png
+└── ...
+```
+
+**Be sure to generate precisely `N` frames named as `%d.png`, in which each frame should have a resolution of `1280 x 720`.**
+
 
 ## License and Citation <a name="licenseandcitation"></a>
 Please refer to our license from WTS dataset [homepage](https://woven-visionai.github.io/wts-dataset-homepage/)
